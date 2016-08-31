@@ -5,18 +5,18 @@
 
 ## Prereqs
 * Server JVM installed on desired slave node
-** add to path
-** set JAVA_HOME
+  * add to path
+  * set JAVA_HOME
 
 ## How to use
 * Clone this repo and/or copy to the desired slave node folder
 * From {jenkins-host}/computer click `New Node`
 * Give your slave a name, 
-** choose Dumb Slave, 
-** and click OK
+  * choose Dumb Slave, 
+  * and click OK
 * For Launch method choose "Launch slave agents via Java Web Start", 
-** fill in the rest of the node info as desired,
-** and click Save
+  * fill in the rest of the node info as desired,
+  * and click Save
 * Click on the newly created node
 * Modify startup.cmd with values found on this page
 * Run _install.cmd as administrator
